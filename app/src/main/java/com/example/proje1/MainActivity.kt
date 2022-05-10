@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getSupportActionBar()?.hide();
-        setContentView(R.layout.fragment_welcomefragment)
+        setContentView(R.layout.activity_main)
     }
 }
