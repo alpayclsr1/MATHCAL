@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".fragmentfour">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/c" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="32dp"
+                android:hint="Enter Your Email"
+                android:padding="10dp"
+                android:textSize="16sp"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:background="@drawable/alpay" />
+            <EditText
+                android:id="@+id/editTextTextPersonName2sad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="32dp"
+                android:hint="Enter Your Password"
+                android:padding="10dp"
+                android:textSize="16sp"
+
+                android:ems="10"
+                android:inputType="textPassword"
+                android:background="@drawable/alpay" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2sadi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="32dp"
+                android:hint="Enter Your Username"
+                android:padding="10dp"
+                android:textSize="16sp"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:background="@drawable/alpay" />
+
+            <EditText
+                android:id="@+id/startdate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="32dp"
+                android:hint="select study start date"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:ems="10"
+                android:inputType="date" />
+            <EditText
+                android:id="@+id/endDate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="32dp"
+                android:hint="select the date you want to end the topics"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:ems="10"
+                android:inputType="date" />
+            <EditText
+                android:id="@+id/hour"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="32dp"
+                android:hint="how many hours a day will you study"
+                android:padding="10dp"
+                android:textSize="16sp"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:background="@drawable/alpay" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_marginEnd="64dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginStart="64dp"
+                android:background="@drawable/alpay"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alpay/AndroidStudioProjects/proje1/app/src/main/res/drawable/alpay.xml" value="0.23" />
         <entry key="..\:/Users/alpay/AndroidStudioProjects/proje1/app/src/main/res/layout/activity_main.xml" value="0.1062058526740666" />
+        <entry key="..\:/Users/alpay/AndroidStudioProjects/proje1/app/src/main/res/layout/fragment_fragmentfour.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/alpay/AndroidStudioProjects/proje1/app/src/main/res/layout/fragment_fragmentthree.xml" value="0.16" />
         <entry key="..\:/Users/alpay/AndroidStudioProjects/proje1/app/src/main/res/layout/fragment_fragmenttwo.xml" value="0.2" />
         <entry key="..\:/Users/alpay/AndroidStudioProjects/proje1/app/src/main/res/layout/fragment_welcomefragment.xml" value="0.2" />
       </map>

@@ -24,7 +24,7 @@
             app:layout_constraintVertical_bias="0.3" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/signin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -51,16 +51,26 @@
             app:layout_constraintVertical_bias="0.39" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/signup"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="120dp"
             android:text="Sign Up"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/button"
-            app:layout_constraintStart_toStartOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/signin"
+            app:layout_constraintStart_toStartOf="@+id/signin"
             app:layout_constraintTop_toBottomOf="@+id/button"
             app:layout_constraintVertical_bias="0.36" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="129dp"
+            android:layout_height="226dp"
+            android:src="@drawable/c"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

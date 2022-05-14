@@ -18,5 +18,23 @@
         android:id="@+id/fragmenttwo"
         android:name="com.example.proje1.fragmenttwo"
         android:label="fragment_fragmenttwo"
-        tools:layout="@layout/fragment_fragmenttwo" />
+        tools:layout="@layout/fragment_fragmenttwo" >
+        <action
+            android:id="@+id/action_fragmenttwo_to_fragmentthree"
+            app:destination="@id/fragmentthree" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentthree"
+        android:name="com.example.proje1.fragmentthree"
+        android:label="fragment_fragmentthree"
+        tools:layout="@layout/fragment_fragmentthree" >
+        <action
+            android:id="@+id/action_fragmentthree_to_fragmentfour"
+            app:destination="@id/fragmentfour" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentfour"
+        android:name="com.example.proje1.fragmentfour"
+        android:label="fragment_fragmentfour"
+        tools:layout="@layout/fragment_fragmentfour" />
 </navigation>
