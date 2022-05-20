@@ -37,4 +37,9 @@
         android:name="com.example.proje1.fragmentfour"
         android:label="fragment_fragmentfour"
         tools:layout="@layout/fragment_fragmentfour" />
+    <fragment
+        android:id="@+id/questiondist"
+        android:name="com.example.proje1.questiondist"
+        android:label="fragment_questiondist"
+        tools:layout="@layout/fragment_questiondist" />
 </navigation>
